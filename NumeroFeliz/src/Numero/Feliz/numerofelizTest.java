@@ -11,4 +11,10 @@ public class numerofelizTest {
 		boolean ehFeliz = numerofeliz.ehFeliz(0);
 		assertEquals(false, ehFeliz);
 	}
+	
+	@Test
+	public void testNumeroFeliz5() {
+		boolean ehFeliz = numerofeliz.ehFeliz(5);
+		assertEquals(false, ehFeliz);
+	}
 }
